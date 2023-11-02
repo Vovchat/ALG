@@ -1,0 +1,65 @@
+﻿////стр 34 № 4
+//Console.WriteLine("Задайте число");
+//double n = Convert.ToDouble(Console.ReadLine());
+//double a = 0;
+//double b = 0;
+//double c = 1;
+//for (int i = 1; i <= n; i++)
+//{
+//    a = a + Math.Cos(i);
+//    b = b + Math.Sin(i);
+//    c = c * (a / b);
+//}
+//Console.WriteLine($"Выражение равно = {c}");
+
+//стр 21 № 25
+//Console.WriteLine("Задайте одну из величин первого прямоугольного паралепипеда");
+//double a1 = Convert.ToDouble(Console.ReadLine());
+//Console.WriteLine("Задайте одну из величин первого прямоугольного паралепипеда");
+//double b1 = Convert.ToDouble(Console.ReadLine());
+//Console.WriteLine("Задайте одну из величин первого прямоугольного паралепипеда");
+//double c1 = Convert.ToDouble(Console.ReadLine());
+//Console.WriteLine("Задайте одну из величин второго прямоугольного паралепипеда");
+//double a2 = Convert.ToDouble(Console.ReadLine());
+//Console.WriteLine("Задайте одну из величин второго прямоугольного паралепипеда");
+//double b2 = Convert.ToDouble(Console.ReadLine());
+//Console.WriteLine("Задайте одну из величин второго прямоугольного паралепипеда");
+//double c2 = Convert.ToDouble(Console.ReadLine());
+//double d1 = 0;
+//double d2 = 0;
+//d1 += a1 * b1 * c1;
+//d2 += a2 * b2 * c2;
+//if (d1 > d2)
+//    Console.WriteLine("Первый паралепипед больше");
+//else
+//    Console.WriteLine("Второй паралепипед больше");
+
+//стр 34 № 11
+//double a;
+//double b;
+//b = 1 + Math.Sin(0.1);
+//for (double i = 0.1; i <= 10; i += 0.1)
+//{
+//    a = 1 + Math.Sin(i);
+//    b = b * a;
+//}
+//Console.WriteLine($"Выражение равно ={b}");
+
+//стр 39 № 22
+//double summa = 0;
+//Console.WriteLine("Введите число окончания");
+//int b = Convert.ToInt32(Console.ReadLine());
+//while (b > 0)
+//{
+//    Console.WriteLine("Введите очередное число последовательности d=");
+//    double c = Convert.ToDouble(Console.ReadLine());
+//    double a = c % 10;
+//    if (a / b == 1)
+//        summa += c;
+//    else
+//        Console.WriteLine("число не оканчивается на заданное");
+//    Console.WriteLine("Продолжить ввод? Y/N");
+//    if (Console.ReadLine() == "N")
+//        break;
+//}
+//Console.WriteLine($"Сумма последовательности равна = {summa}");
